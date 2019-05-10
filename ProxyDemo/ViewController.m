@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TestViewController.h"
 
 @interface ViewController ()
 
@@ -14,9 +15,20 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+
+/// 参考链接： https://juejin.im/post/5afaaf996fb9a07ac5604a92
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.title = @"定时器-如何防止内存泄露";
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.navigationController pushViewController:[TestViewController new] animated:YES];
 }
 
 

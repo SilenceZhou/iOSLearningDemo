@@ -13,6 +13,10 @@
 		210DF83A22854A9A00EE4702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210DF83922854A9A00EE4702 /* Assets.xcassets */; };
 		210DF83D22854A9A00EE4702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210DF83B22854A9A00EE4702 /* LaunchScreen.storyboard */; };
 		210DF84022854A9A00EE4702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 210DF83F22854A9A00EE4702 /* main.m */; };
+		210DF84822854AA900EE4702 /* NSTimer+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 210DF84722854AA900EE4702 /* NSTimer+Category.m */; };
+		210DF84B22854B5100EE4702 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210DF84A22854B5100EE4702 /* TestViewController.m */; };
+		21A9BC3722854DCC00D1AC67 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A9BC3622854DCC00D1AC67 /* YYWeakProxy.m */; };
+		21A9BC3A2285556400D1AC67 /* CADisplayLink+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A9BC392285556400D1AC67 /* CADisplayLink+category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		210DF83C22854A9A00EE4702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210DF83E22854A9A00EE4702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		210DF83F22854A9A00EE4702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		210DF84622854AA900EE4702 /* NSTimer+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Category.h"; sourceTree = "<group>"; };
+		210DF84722854AA900EE4702 /* NSTimer+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Category.m"; sourceTree = "<group>"; };
+		210DF84922854B5100EE4702 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		210DF84A22854B5100EE4702 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		21A9BC3522854DCC00D1AC67 /* YYWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		21A9BC3622854DCC00D1AC67 /* YYWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		21A9BC382285556400D1AC67 /* CADisplayLink+category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+category.h"; sourceTree = "<group>"; };
+		21A9BC392285556400D1AC67 /* CADisplayLink+category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 				210DF83122854A9900EE4702 /* AppDelegate.m */,
 				210DF83322854A9900EE4702 /* ViewController.h */,
 				210DF83422854A9900EE4702 /* ViewController.m */,
+				210DF84922854B5100EE4702 /* TestViewController.h */,
+				210DF84A22854B5100EE4702 /* TestViewController.m */,
+				210DF84622854AA900EE4702 /* NSTimer+Category.h */,
+				210DF84722854AA900EE4702 /* NSTimer+Category.m */,
+				21A9BC382285556400D1AC67 /* CADisplayLink+category.h */,
+				21A9BC392285556400D1AC67 /* CADisplayLink+category.m */,
+				21A9BC3522854DCC00D1AC67 /* YYWeakProxy.h */,
+				21A9BC3622854DCC00D1AC67 /* YYWeakProxy.m */,
 				210DF83622854A9900EE4702 /* Main.storyboard */,
 				210DF83922854A9A00EE4702 /* Assets.xcassets */,
 				210DF83B22854A9A00EE4702 /* LaunchScreen.storyboard */,
@@ -141,9 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210DF84822854AA900EE4702 /* NSTimer+Category.m in Sources */,
 				210DF83522854A9900EE4702 /* ViewController.m in Sources */,
+				21A9BC3722854DCC00D1AC67 /* YYWeakProxy.m in Sources */,
 				210DF84022854A9A00EE4702 /* main.m in Sources */,
 				210DF83222854A9900EE4702 /* AppDelegate.m in Sources */,
+				21A9BC3A2285556400D1AC67 /* CADisplayLink+category.m in Sources */,
+				210DF84B22854B5100EE4702 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
